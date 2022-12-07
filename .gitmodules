@@ -1,0 +1,7 @@
+[submodule "extern/cmake_minimal_project"]
+	path = extern/cmake_minimal_project
+	url = https://github.com/MedericFourmy/cmake_minimal_project.git
+[submodule "extern/pybind11"]
+	path = extern/pybind11
+	url = https://github.com/pybind/pybind11.git
+	branch = stable
