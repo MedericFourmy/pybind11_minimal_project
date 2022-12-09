@@ -10,4 +10,3 @@ Install module: `pip install .`
 
 Then, from anywhere: 
 `python3 -c "from pybind11_minimal_project import operations_mod; print(operations_mod.add(1,2))"`
-]
