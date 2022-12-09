@@ -1,3 +1,4 @@
 [submodule "extern/cmake_minimal_project"]
 	path = extern/cmake_minimal_project
 	url = https://github.com/MedericFourmy/cmake_minimal_project.git
+	branch = master
