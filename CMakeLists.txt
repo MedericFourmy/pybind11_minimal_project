@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 project(pybind11_minimal_project LANGUAGES CXX)
 
-add_subdirectory(extern/pybind11)
+# Automatically installed when pip install?
+find_package(pybind11 CONFIG REQUIRED)
+
 add_subdirectory(extern/cmake_minimal_project)
 
 # pybind11_add_module is a wrapper around ADD_LIBRARY
