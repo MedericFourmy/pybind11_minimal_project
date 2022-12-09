@@ -1,0 +1,14 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "pybind11_minimal_project"
+version = "0.0.1"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy"
+]
+
+[tool.scikit-build]
+wheel.expand-macos-universal-tags = true
